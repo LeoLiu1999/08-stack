@@ -10,6 +10,8 @@ color = [ 0, 255, 0 ]
 edges = []
 polygons = []
 transform = []
-transform.append(ident(new_matrix()))
+ident_mat = new_matrix()
+ident(ident_mat)
+transform.append(ident_mat)
 
 parse_file( 'script', edges, polygons, transform, screen, color )
