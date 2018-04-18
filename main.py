@@ -14,4 +14,4 @@ ident_mat = new_matrix()
 ident(ident_mat)
 transform.append(ident_mat)
 
-parse_file( 'script', edges, polygons, transform, screen, color )
+parse_file( 'myscript', edges, polygons, transform, screen, color )
